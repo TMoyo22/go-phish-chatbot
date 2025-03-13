@@ -17,7 +17,13 @@ st.set_page_config(page_title="GoPhish Chatbot", page_icon="🤖")
 if "messages" not in st.session_state:
     st.session_state.messages = []
 
-st.title("🤖 GoPhish Chatbot")
+st.markdown(
+    """
+     <h1>🤖<span style="color:turquoise;">Go</span>Phish! ChatBot</h1>
+     """,
+    unsafe_allow_html=True,
+)
+
 st.write("Ask me anything you want to know about Cybersecurity!")
 
 
