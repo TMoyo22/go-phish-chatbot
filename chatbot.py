@@ -24,7 +24,9 @@ st.markdown(
     unsafe_allow_html=True,
 )
 
-st.write("Ask me anything you want to know about Cybersecurity!")
+st.write(
+    "You are here because you clicked on a simulated phishing email! Now it's time to learn how to stay safe online. Let's dive into Cybersecurity!"
+)
 
 
 if st.button("Clear chat"):
