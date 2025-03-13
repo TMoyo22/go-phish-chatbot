@@ -1,0 +1,11 @@
+openai
+google-generativeai
+streamlit
+streamlit-chat
+pandas
+flask
+flask-cors
+python-dotenv
+pymongo==4.5.0
+bcrypt
+plotly
