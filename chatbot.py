@@ -19,6 +19,13 @@ if "messages" not in st.session_state:
 
 st.markdown(
     """
+        <style>div[data-testid="stToolbar"] { display: none;}</style>
+    """,
+    unsafe_allow_html=True,
+)
+
+st.markdown(
+    """
      <h1>🤖<span style="color:turquoise;">Go</span>Phish! ChatBot</h1>
      """,
     unsafe_allow_html=True,
